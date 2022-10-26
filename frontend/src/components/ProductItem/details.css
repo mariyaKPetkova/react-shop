@@ -1,0 +1,26 @@
+.product-info-images{
+    display: flex;
+}
+.product-info{
+    width: 28rem;
+    text-align: center;
+    padding: 2rem;
+    background-color:#f8f9fA;
+}
+.product-images{
+    width: 54rem;   
+}
+.table-availability{
+    padding: 2rem;
+    margin: 2rem;
+   
+}
+.table-availability button{
+    width: 4rem;
+    margin: 0.2rem;
+
+}
+.custom-error{
+    margin: 0.8rem;
+    color: red;
+}

@@ -1,0 +1,33 @@
+.plp {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 2rem;
+    justify-content: center;
+    list-style-type: none;
+}
+.filter-sort-bar{
+    padding: 0.5rem;
+    background-color:#f8f9fA;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 1rem;
+}
+.filter-sort-bar li button{
+    width: 10rem;
+    height: 2rem;
+    background-color:#e5e7e9;
+    border: #d6dbe0;
+    border-radius: 0.5rem;
+    
+}
+.filter-sort-bar li button:hover{
+    background-color:#c1c6ca;
+    transition: 0.3s;
+}
+.filter-sort-bar li button:hover span{
+    color: #353636;
+}
+.filter-sort-bar li button span{
+    color: #868888;
+}

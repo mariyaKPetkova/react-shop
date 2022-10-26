@@ -1,0 +1,53 @@
+# Global ignores
+**/samples/**/*.json
+**/mocks/**/*.json
+**/test-samples/**/*.json
+**/test-data/**/*.json
+**/taxonomy/**/*.json
+**/package-lock.json
+**/node_modules/**
+**/coverage/**
+**/*.min.js
+**/__snapshots__/**
+
+# Ignore built files except build/index.js
+front-dist/*
+ssr-build/*
+tmp/*
+build/*
+**/dist/**
+
+fredhopper/**/*.json
+fredhopper-content/**/*.json
+translation-cache.json
+jsdoc/*
+
+api/ab-test-data/**/*.json
+api/test/samples/**/*.json
+api/test/mocks/**/*.json
+
+translations/properties/**/*.json
+translation-cache.json
+lib/translations-reader/demandware-translations/before.json
+lib/translations-reader/demandware-translations/after.json
+
+frontend/assets/scripts/**/*.js
+frontend/shell/lib/router/pages/*.js
+
+configs/*/**/*.js
+configs/features.js
+configs/fetchConsentData.js
+configs/ts.js
+configs/types.js
+
+lib/validation/**/*.js
+# lib/monetate-cms-transforms/**
+# Ignore class typings due to https://github.com/typescript-eslint/typescript-eslint/issues/15
+lib/errors/errors.d.ts
+frontend/core/lib/soasta.d.ts
+
+# ignore submodule
+fallback-content/*
+
+frontend/**/*.css
+frontend/**/*.jpg
